@@ -34,6 +34,9 @@ package:
 		--exclude Makefile \
 		--exclude buildenv.sh \
 		--exclude envs \
+		--exclude README.md \
+		--exclude pipelines \
+		--exclude scripts \
 		.
 
 	@echo "Contents of package:"
